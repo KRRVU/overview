@@ -1,6 +1,0 @@
-curl https://api.github.com/repos/<username>/<reponame>
-
-keys
- - name
- - description
- - private
