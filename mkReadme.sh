@@ -40,6 +40,7 @@ function add_github_resources {
 
 	for uri in "${api_uris[@]}"
 	do
+		echo -n '-'
 		repo_info=$( retrieve_info "$uri" )
 
 		name=$( jq -r .name < <( echo "$repo_info") )
@@ -67,6 +68,7 @@ function main {
 	cat "$FRONTMATTER" > "$README_FILE"
 	echo -en '\n' >> "$README_FILE"
 
+	echo -n 'API calls ['
 	if [ -f "$SCIENTIFIC_REPOSITORIES" ]
 	then
 		echo -e "### Scientific Resources\n" >> "$README_FILE"
@@ -82,6 +84,7 @@ function main {
 	else
 		echo "Cannot locate file: $EDUCATIONAL_REPOSITORIES"
 	fi
+	echo ']'
 
 	cat "$BACKMATTER" >> "$README_FILE"
 	echo -en "\n---\nList updated on" $(date +%F) >> "$README_FILE"

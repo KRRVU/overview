@@ -11,6 +11,9 @@ Listed below are some of the publicly-available scientific and educational resou
 - [mrgcn](https://github.com/wxwilcke/mrgcn)
 	> *Multimodal Relational Graph Convolution Network*
 - [mmlkg](https://github.com/wxwilcke/mmlkg)
+	> *A benchmark pipeline for shallow Multimodal Machine Learning on Knowledge Graphs*
+- [mkgfd](https://github.com/wxwilcke/mkgfd)
+	> *Discovering Context-Aware Constraints in Multimodal Knowledge Graph*
 - [kgbench](https://github.com/pbloem/kgbench)
 	> *A set of benchmark repositories for node classification on knowledge graphs.*
 
