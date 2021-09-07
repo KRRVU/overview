@@ -56,7 +56,7 @@ function add_github_resources {
 		if [ ! -z "$desc" ] && [ "$desc" != "null" ]
 		then
 			desc_length="${#desc}"
-			if [ $desc_length -lt 80 ]
+			if [ $desc_length -lt 90 ]
 			then
 				echo -e "\t> *$desc*" >> "$README_FILE"
 			else
@@ -67,12 +67,14 @@ function add_github_resources {
 				declare -i length=0
 				for word in "${desc_array[@]}"
 				do
-					if [ $length -ge 80 ]
+					if [ $length -ge 90 ]
 					then
 						echo -en '*\n\t  *' >> "$README_FILE"
 						length=0
 					fi
 
+					# trim word and write to file
+					word=$( echo "$word" | xargs )
 					echo -n "$word " >> "$README_FILE"
 
 					word_length="${#word}"

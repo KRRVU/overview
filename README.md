@@ -13,18 +13,18 @@ Listed below are some of the publicly-available scientific and educational resou
 - [differentiable-fuzzy-logics](https://github.com/HEmile/differentiable-fuzzy-logics)
 	> *MNIST semi-supervised learning experiments using differentiable fuzzy logic*
 - [juggl](https://github.com/HEmile/juggl)
-	> *An interactive, stylable and expandable graph view for Obsidian. Juggl is designed as an advanced *
-	  *'local' graph view, where you can juggle all your thoughts with ease. *
+	> *An interactive, stylable and expandable graph view for Obsidian. Juggl is designed as an advanced 'local'*
+	  *graph view, where you can juggle all your thoughts with ease.*
 - [kgbench](https://github.com/pbloem/kgbench)
 	> *A set of benchmark repositories for node classification on knowledge graphs.*
 - [mkgfd](https://github.com/wxwilcke/mkgfd)
 	> *Discovering Context-Aware Constraints in Multimodal Knowledge Graphs*
 - [mmlkg](https://github.com/wxwilcke/mmlkg)
-	> *A benchmark pipeline for shallow Multimodal Machine Learning on Knowledge Graphs *
+	> *A benchmark pipeline for shallow Multimodal Machine Learning on Knowledge Graphs*
 - [mrgcn](https://github.com/wxwilcke/mrgcn)
 	> *Multimodal Relational Graph Convolution Network*
 - [sameAs-webservice](https://github.com/raadjoe/sameAs-webservice)
-	> *This Web service provides access to the largest collection of owl:sameAs statements and their *
+	> *This Web service provides access to the largest collection of owl:sameAs statements and their*
 	  *equivalence classes after transitive closure. *
 - [storchastic](https://github.com/HEmile/storchastic)
 	> *Stochastic Automatic Differentiation library for PyTorch.*
