@@ -55,7 +55,32 @@ function add_github_resources {
 		echo "- [$name]($link)" >> "$README_FILE"
 		if [ ! -z "$desc" ] && [ "$desc" != "null" ]
 		then
-			echo -e "\t> *$desc*" >> "$README_FILE"
+			desc_length="${#desc}"
+			if [ $desc_length -lt 80 ]
+			then
+				echo -e "\t> *$desc*" >> "$README_FILE"
+			else
+				# break line to avoid breaking italics on long lines
+				desc_array=( $desc )
+				echo -en "\t> *" >> "$README_FILE"
+
+				declare -i length=0
+				for word in "${desc_array[@]}"
+				do
+					if [ $length -ge 80 ]
+					then
+						echo -en '*\n\t  *' >> "$README_FILE"
+						length=0
+					fi
+
+					echo -n "$word " >> "$README_FILE"
+
+					word_length="${#word}"
+				    let "length+=word_length"
+				done
+
+				echo '*' >> "$README_FILE"
+			fi
 		fi
 
 		sleep $CALL_DELAY

@@ -8,29 +8,39 @@ Listed below are some of the publicly-available scientific and educational resou
 
 ### Scientific Resources
 
+- [burgerLinker](https://github.com/CLARIAH/burgerLinker)
+	> *Command line tool for linking civil registries*
 - [differentiable-fuzzy-logics](https://github.com/HEmile/differentiable-fuzzy-logics)
 	> *MNIST semi-supervised learning experiments using differentiable fuzzy logic*
 - [juggl](https://github.com/HEmile/juggl)
-	> *An interactive, stylable and expandable graph view for Obsidian. Juggl is designed as an advanced 'local' graph view, where you can juggle all your thoughts with ease. *
+	> *An interactive, stylable and expandable graph view for Obsidian. Juggl is designed as an advanced *
+	  *'local' graph view, where you can juggle all your thoughts with ease. *
 - [kgbench](https://github.com/pbloem/kgbench)
 	> *A set of benchmark repositories for node classification on knowledge graphs.*
 - [mkgfd](https://github.com/wxwilcke/mkgfd)
 	> *Discovering Context-Aware Constraints in Multimodal Knowledge Graphs*
 - [mmlkg](https://github.com/wxwilcke/mmlkg)
-	> *A benchmark pipeline for shallow Multimodal Machine Learning on Knowledge Graphs*
+	> *A benchmark pipeline for shallow Multimodal Machine Learning on Knowledge Graphs *
 - [mrgcn](https://github.com/wxwilcke/mrgcn)
 	> *Multimodal Relational Graph Convolution Network*
+- [sameAs-webservice](https://github.com/raadjoe/sameAs-webservice)
+	> *This Web service provides access to the largest collection of owl:sameAs statements and their *
+	  *equivalence classes after transitive closure. *
 - [storchastic](https://github.com/HEmile/storchastic)
 	> *Stochastic Automatic Differentiation library for PyTorch.*
+- [subMassive-webservice](https://github.com/raadjoe/subMassive-webservice)
+	> *SUBMASSIVE: Resolving Cyclic Relations in Very Large Knowledge Graphs*
 - [torch-rgcn](https://github.com/thiviyanT/torch-rgcn)
 	> *A PyTorch implementation of the Relational Graph Convolutional Network (RGCN).*
 
 
 ### Educational Resources
 
+- [DLVU, deep learning at VU](https://github.com/dlvu)
+- [Knowledge & Data - Vrije Universiteit](https://github.com/ucds-vu/knowledge-data-vu)
+	> *Tutorials and Assignments for the Knowledge & Data course @ Vrije Universiteit*
 - [Machine Learning @ VU University](https://github.com/mlvu)
 	> *Materials for the VU machine learning course*
-- [DLVU, deep learning at VU](https://github.com/dlvu)
 
 
 
