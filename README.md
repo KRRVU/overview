@@ -25,7 +25,7 @@ Listed below are some of the publicly-available scientific and educational resou
 	> *Multimodal Relational Graph Convolution Network*
 - [sameAs-webservice](https://github.com/raadjoe/sameAs-webservice)
 	> *This Web service provides access to the largest collection of owl:sameAs statements and their equivalence*
-	  *classes after transitive closure. *
+	  *classes after transitive closure.*
 - [storchastic](https://github.com/HEmile/storchastic)
 	> *Stochastic Automatic Differentiation library for PyTorch.*
 - [subMassive-webservice](https://github.com/raadjoe/subMassive-webservice)
