@@ -33,7 +33,7 @@ Listed below are some of the publicly-available scientific and educational resou
 - [torch-rgcn](https://github.com/thiviyanT/torch-rgcn)
 	> *A PyTorch implementation of the Relational Graph Convolutional Network (RGCN).*
 - [mpqe](https://github.com/dfdazac/mpqe)
-	> * queries over Knowledge Graphs with Graph Convolutional  @ ICLR 2020 Workshop on Graph Representation Learning *
+	> *Answering queries over Knowledge Graphs with Graph Convolutional Networks @ ICLR 2020 Workshop on Graph Representation Learning*
 - [blp](https://github.com/dfdazac/blp)
 	> *"Inductive Entity Representations from Text via Link Prediction" @ The Web Conference 2021*
 - [cqd](https://github.com/uclnlp/cqd)
