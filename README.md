@@ -13,8 +13,8 @@ Listed below are some of the publicly-available scientific and educational resou
 - [differentiable-fuzzy-logics](https://github.com/HEmile/differentiable-fuzzy-logics)
 	> *MNIST semi-supervised learning experiments using differentiable fuzzy logic*
 - [juggl](https://github.com/HEmile/juggl)
-	> *An interactive, stylable and expandable graph view for Obsidian. Juggl is designed as an advanced 'local'*
-	  *graph view, where you can juggle all your thoughts with ease.*
+	> *An interactive, stylable and expandable graph view for Obsidian. Juggl is designed as an advanced local graph view, where you can juggle *
+	  *all your thoughts with ease.*
 - [kgbench](https://github.com/pbloem/kgbench)
 	> *A set of benchmark repositories for node classification on knowledge graphs.*
 - [mkgfd](https://github.com/wxwilcke/mkgfd)
@@ -24,14 +24,20 @@ Listed below are some of the publicly-available scientific and educational resou
 - [mrgcn](https://github.com/wxwilcke/mrgcn)
 	> *Multimodal Relational Graph Convolution Network*
 - [sameAs-webservice](https://github.com/raadjoe/sameAs-webservice)
-	> *This Web service provides access to the largest collection of owl:sameAs statements and their equivalence*
-	  *classes after transitive closure.*
+	> *This Web service provides access to the largest collection of owl:sameAs statements and their equivalence classes after transitive *
+	  *closure.*
 - [storchastic](https://github.com/HEmile/storchastic)
 	> *Stochastic Automatic Differentiation library for PyTorch.*
 - [subMassive-webservice](https://github.com/raadjoe/subMassive-webservice)
 	> *SUBMASSIVE: Resolving Cyclic Relations in Very Large Knowledge Graphs*
 - [torch-rgcn](https://github.com/thiviyanT/torch-rgcn)
 	> *A PyTorch implementation of the Relational Graph Convolutional Network (RGCN).*
+- [mpqe](https://github.com/dfdazac/mpqe)
+	> * queries over Knowledge Graphs with Graph Convolutional  @ ICLR 2020 Workshop on Graph Representation Learning *
+- [blp](https://github.com/dfdazac/blp)
+	> *"Inductive Entity Representations from Text via Link Prediction" @ The Web Conference 2021*
+- [cqd](https://github.com/uclnlp/cqd)
+	> *Continuous Query Decomposition for Complex Query Answering in Incomplete Knowledge Graphs*
 
 
 ### Educational Resources
@@ -46,4 +52,4 @@ Listed below are some of the publicly-available scientific and educational resou
 
 
 ---
-List updated on 2021-09-07
+List updated on 2021-09-20
